@@ -1,0 +1,147 @@
+* {margin:0; padding: 0; border: 0;}
+
+body {
+    text-align: center;
+    font-family: "open sans";
+    }
+
+  /* Barra navegacion */
+nav {
+    background-color: brown;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 30px; 
+     
+    }
+
+nav ul li {
+       display: inline-block;
+       vertical-align: middle;
+       margin-right: 70px;
+    }
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+    }
+
+nav svg {
+    width: 35px;
+    }
+    
+
+  /* Header */
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Propiedades Agregadas */
+    font-family: monospace;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+    padding: 100px;
+    }
+
+header h1 {
+    font-size: 70px;
+    }
+
+header h2 {
+    font-size: 40px;
+    font-weight: 400;
+    }
+
+
+/* UBICACION  */
+#Ubicacion {
+    margin: 100px;
+    }
+#Ubicacion h2 {
+    font-size: 40px;
+    margin: 40px 0px 20px 0px;
+    }
+#Ubicacion p {
+    font-size: 30px;
+    }
+
+  /*Proxima Charla */
+#Proxima-Charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+ 
+    }
+#Proxima-charla img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+    }
+#Proxima-charla .texto {
+    text-align: left;
+    margin-left: 40px;
+    }
+#Proxima-charla .texto h3 {
+    font-size: 60px;
+    }
+#Proxima-charla .texto h4 {
+    font-size: 30px;
+    }
+#Proxima-charla .texto h6 {
+    font-size: 25px;
+    }
+#Proxima-charla .texto span {
+    font-size: 25px;
+    }
+#Proxima-charla .texto p {
+    margin: 20px 0px;
+    font-size: 30px;
+    }
+
+
+  /*Seccion Eventos */
+#Eventos {
+    padding: 100px;
+    }
+#Eventos h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    }
+#Eventos h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    }
+#Eventos article {
+    display: inline-block;
+    margin: 0px 30px;
+    font-size: 25px;
+    }
+#Eventos article img {
+    margin-bottom: 25px;
+    }
+
+ /*Footer */ 
+Footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 10px
+    } 
+  
+  /*Iconos footer */
+#Iconos {
+    padding: 30px;
+    }
+  
+#Iconos article {
+    display: inline-block;
+    margin: 0px 10px;
+    }   
+
+#Iconos i {
+    font-size: 40px
+    }
+
+
+
